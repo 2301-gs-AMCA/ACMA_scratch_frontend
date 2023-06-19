@@ -14,7 +14,7 @@ export default function Navbar() {
           </button>
         </li>
         <li>
-          <button className="link" onClick={() => nav("/Register")}>
+          <button className="link" onClick={() => nav("/LoginReg")}>
             Login/Register
           </button>
         </li>
@@ -24,12 +24,12 @@ export default function Navbar() {
           </button>
         </li>
         <li>
-          <button className="link" onClick={() => nav("/CreatePost")}>
+          <button className="link" onClick={() => nav("/Shop")}>
             Shop
           </button>
         </li>
         <li>
-          <button className="link" onClick={() => nav("/Login")}>
+          <button className="link" onClick={() => nav("/Cart")}>
             Cart
           </button>
         </li>

@@ -22,7 +22,7 @@
   box-shadow: 1px 1px 1px 1px;
   border-radius: 6px;
   z-index: 1;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 .navlinks {
   display: flex;
@@ -108,4 +108,18 @@
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
+}
+.login {
+  display:flex;
+  justify-content: center;
+  min-height:50vh;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 8rem 10rem 8rem 10rem; 
+  border: 1px solid;
+  box-shadow: 1px 1px 2px 2px ;
 }
