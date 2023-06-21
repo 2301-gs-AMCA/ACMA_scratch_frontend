@@ -5,7 +5,7 @@ import Footer from "./Components/Footer";
 import LoginReg from "./Components/LoginReg";
 import Logout from "./Components/Logout";
 import Profile from "./Components/Profile";
-import Shop from "./Components/Profile";
+import Shop from "./Components/Shop";
 import Cart from "./Components/Cart";
 import "./App.css";
 
