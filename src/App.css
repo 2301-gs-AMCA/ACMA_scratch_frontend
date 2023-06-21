@@ -123,3 +123,6 @@
   border: 1px solid;
   box-shadow: 1px 1px 2px 2px ;
 }
+.profile {
+  min-height: 100vh;
+}
