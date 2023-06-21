@@ -6,9 +6,10 @@ export const Imageslider = ({ slides }) => {
   const [pic, setPic] = useState(0);
   const length = slides.length;
 
-  // useEffect(() => {
-  //   const timeout = setTimeout();
-  // }, [pic, length]);
+  useEffect(() => {
+    const timeout = setTimeout(() => setPic((pic + 1 + length) % length), 4500);
+    return () => clearTimeout(timeout);
+  }, [pic, length]);
   const nextSlide = () => {
     setPic(pic === length - 1 ? 0 : pic + 1);
   };
